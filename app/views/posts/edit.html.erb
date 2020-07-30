@@ -7,7 +7,7 @@
   <label>Post description</label><br>
   <%= f.text_area :description %><br>
 
-  <%= f.submit %>
+  <%= f.submit %> <!-- submit button --> 
 <% end %>
 
 
@@ -18,3 +18,4 @@ form_for gives the option to dynamically change the submit button text
 connected to model directly
 html form generated -> search form field or contact form
 The |f| is an iterator variable that we can use on the new form object that will allow us to dynamically assign form field elements to each of the @post's data attributes, along with auto filling the values for each field. We get this ActionView functionality because we're using the form_for method, which gives us access to the FormBuilder module in Rails.
+j
