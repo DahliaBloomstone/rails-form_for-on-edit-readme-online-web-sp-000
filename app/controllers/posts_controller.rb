@@ -29,3 +29,7 @@ class PostsController < ApplicationController
 	  redirect_to post_path(@post)
 	end
 end
+
+#title and description attributes nested within the post hash
+#require method/ permit in the nested hash
+# strong params = ActiveRecord to use mass assignment without trouble 
